@@ -47,3 +47,13 @@ main .wrapper .btn button {
     font-size: 1rem;
     cursor: pointer;
 }
+
+a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px;
+}

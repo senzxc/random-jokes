@@ -1,6 +1,6 @@
 const jokeContainer = document.getElementById("jokes");
 const btn = document.getElementById("btn");
-const url = "http://localhost:3000/api/text";
+const url = "https://candaan-api.vercel.app//api/text/random";
 
 let getJoke = () => {
     fetch(url)
